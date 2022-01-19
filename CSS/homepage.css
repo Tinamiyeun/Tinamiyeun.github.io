@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Prata&display=swap');
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'Prata', serif;*/
+
+/*
+black   #000000
+blue    #2D268D
+orange  #FF3D00
+beige   #F7F6F2
+white   #FFFFFF
+*/
+
+/*456px and below = font-size adjustment*/
+header{
+    background-color: #2D268D;
+    color: #FFFFFF;
+    font-family: 'Prata', serif;
+}
+
+main{
+    background-color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+}
+
+#workHistory, #lang, #skills, #projects{    
+    background-color: #2D268D;
+    color: #FFFFFF;
+    
+}
+
+footer{
+    background-color: #2D268D;
+    color: #FFFFFF;
+}
+/*header h2{
+    font-size: 1.5em;
+}*/
+
+@media (min-width: 432px) and (max-width: 456px){
+    header h1{
+        font-size: 1.7em;
+    }
+    header h2{
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 384px) and (max-width: 431px){
+    header h1{
+        font-size: 1.5em;
+    }
+    header h2{
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 383px){
+    header h1{
+        font-size: 1.3em;
+    }
+    header h2{
+        font-size: 1.1em;
+    }
+}
